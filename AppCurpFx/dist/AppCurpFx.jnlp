@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AppCurpFx.jnlp">
+  <information>
+    <title>AppCurpFx</title>
+    <vendor>carlosavinaluna</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AppCurpFx.jar" size="5250" download="eager" />
+    <jar href="lib/CURP.jar" size="11438" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AppCurpFx" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="org.udls.curpfx.gui.WindowMain"  name="AppCurpFx" />
+  <update check="always"/>
+</jnlp>
